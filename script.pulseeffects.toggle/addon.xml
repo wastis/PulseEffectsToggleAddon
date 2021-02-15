@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pulseeffects.toggle" name="PulseEffects Toggle" version="1.0.0" provider-name="wasti">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Toggles PulseEffects presets</summary>
+		<description lang="en">Pops up a selection menu for selecting a PulseEffects preset, defined in PulesEffects. Requires PulseEffects installed from flatpak.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>https://forum.kodi.tv/showthread.php?tid=360514</forum>
+		<source>https://github.com/wastis/script.hello.world</source>
+		<website>Kodi.tv</website>
+		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>Initial Version</news>
+	</extension>
+</addon>
